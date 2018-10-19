@@ -1085,10 +1085,10 @@ class graph_plot :
 		plt.axis('off')
 		nx.draw_networkx_edges(graph, self.positions, width = self.edge_width,edge_color = self.edge_color,style = self.edge_style,alpha =self.edge_transparency)
 		
-	def save_plot(self,file_path,format="pdf") :
+	def save_plot(self,file_path,form="pdf") :
 		plt.figure(figsize=(10,10))
 		self.make_plot()
-		plt.savefig(file_path + ".".format(format) , bbox_inches = 'tight',format=format)
+		plt.savefig(file_path + ".{}".format(form) , bbox_inches = 'tight',format=form)
 		
 	def show_plot(self) :
 		plt.figure(figsize=(10,10))
