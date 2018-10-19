@@ -125,3 +125,11 @@ dmypy.json
 *.pickle
 *.conf
 *submit.sh
+
+#Ignore backups:
+*.~
+
+#Cython related files:
+*.c
+*.cpp
+*.so

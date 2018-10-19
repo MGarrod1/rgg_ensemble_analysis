@@ -109,3 +109,27 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+#Other file extensions related to this project:
+*.csv
+#ignore backup files:
+*.txt~
+*.py~
+*.xml
+*.xml~
+*.db
+*.db~
+*.png
+*.png~
+*.sh~
+*.pickle
+*.conf
+*submit.sh
+
+#Ignore backups:
+*.~
+
+#Cython related files:
+*.c
+*.cpp
+*.pyx
