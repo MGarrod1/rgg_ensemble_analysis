@@ -125,7 +125,6 @@ dmypy.json
 *.pickle
 *.conf
 *submit.sh
-*.pyx~
 
 #Ignore backups:
 *.~
