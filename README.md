@@ -1,6 +1,10 @@
 
 This package provides tools for generating and analysing ensembles of Random Geometric Graphs (RGGs). 
 
+The code is used to perform the numerical simulations in:
+
+Garrod, Matthew, and Nick S. Jones. "Large algebraic connectivity fluctuations in spatial network ensembles imply a predictive advantage from node location information." Physical Review E 98.5 (2018): 052316. [https://doi.org/10.1103/PhysRevE.98.052316](https://doi.org/10.1103/PhysRevE.98.052316)
+
 # Installation:
 
 (sudo) python setup.py install
